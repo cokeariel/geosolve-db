@@ -1,0 +1,45 @@
+{
+  "_from": "geosolve-db@^1.1.3",
+  "_id": "geosolve-db@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-lUaMVRxaAuRO3SRxkhthkPq0XM7SQsqQ+NZYSifUCipDA/pfyyTwSG8fMpGJqmtA/zHSQhNKufr3O91h0bbFOw==",
+  "_location": "/geosolve-db",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "geosolve-db@^1.1.3",
+    "name": "geosolve-db",
+    "escapedName": "geosolve-db",
+    "rawSpec": "^1.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/geosolve-db/-/geosolve-db-1.1.3.tgz",
+  "_shasum": "350c6a5624392839d2d78a75fc2863337bf967da",
+  "_spec": "geosolve-db@^1.1.3",
+  "_where": "/Users/cokeariel/apps/sam-api",
+  "author": {
+    "name": "Team Geosolve",
+    "email": "contacto@geosolve.cl"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "mysql": "^2.16.0"
+  },
+  "deprecated": false,
+  "description": "Layer to database Geosolve",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "geosolve-db",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.3"
+}
