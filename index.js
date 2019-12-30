@@ -16,7 +16,7 @@ mysql.patchFeatures = (connection) => {
                         resolve({ data: newResults })
                     }
                 } else {
-                    reject({ data: []})
+                    resolve({ data: []})
                 }
             })
         });
