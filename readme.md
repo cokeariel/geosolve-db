@@ -49,7 +49,7 @@ database :  'database'
 */
 
 pool.querySP('call sp_test(?)', ['hola'])
-	.then(data  =>  console.log('DATA => ', data))
+	.then(results  =>  console.log('DATA => ', results.data))
 	.catch(err  =>  console.log(err))
 
 
