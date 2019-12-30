@@ -6,7 +6,7 @@ mysql.patchFeatures = (connection) => {
             connection.query(...params, (err, results, fields) => {
                 if (err) return reject(err)
                 if (!results) return resolve(results)
-                if (results.length >= 2) {
+                if (Array.isArray(results)) {
                     if (results.length === 2) {
                         const [data] = results
                         resolve({ data })
@@ -16,7 +16,7 @@ mysql.patchFeatures = (connection) => {
                         resolve({ data: newResults })
                     }
                 } else {
-                    reject(new Error('Query is not a store procedure'))
+                    reject({ data: []})
                 }
             })
         });
